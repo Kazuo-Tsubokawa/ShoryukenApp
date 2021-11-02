@@ -19,16 +19,16 @@ class ViewController: UIViewController {
             imageArrayAttack.append(attackImage)
         }
     }
-        
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-
-        }
         
+    }
+    
     @IBAction func attackBtn(_ sender: Any) {
-            charaImage.animationImages = imageArrayAttack
-            charaImage.animationDuration = 2
-            charaImage.animationRepeatCount = 1
-            charaImage.startAnimating()
-        }
+        charaImage.animationImages = imageArrayAttack
+        charaImage.animationDuration = 2
+        charaImage.animationRepeatCount = 1
+        charaImage.startAnimating()
+    }
 }
